@@ -1,0 +1,46 @@
+h1 {
+    color: goldenrod;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: palegoldenrod;
+    display: flex; /*flex box*/
+    align-items: center;
+    justify-content: center; /*distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container.*/
+    flex-direction: column; /*all content display in a column*/
+    width: 100%;
+    height: 100%;
+}
+
+.yap_yapping{
+    color: #136207;
+}
+
+#yap5{
+    color: hsl(16, 100%, 50%);
+}
+
+#yapSpecial{
+    text-decoration: underline;
+    font-weight: 700;
+    font-style:italic;
+}
+
+p {
+    background-color: brown;
+}
+
+.yapList{
+    color: #136207;
+    font-weight: 600;
+    font-family: cursive;
+    font-size: x-large;
+    background-color: blueviolet;
+    width: fit-content;
+    height: fit-content;
+
+    padding: 10px; /*affect by css property*/
+    margin: 40px; /*not affected by css property*/
+}
